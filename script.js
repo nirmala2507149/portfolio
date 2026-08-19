@@ -11,6 +11,7 @@ function getGreeting() {
     if (hour<17) return"Good Afternoon";
     return "Good Evening"
 } 
+
 let hero=document.querySelector(".hero-section h1")
 if(hero){
     hero.textContent=`${getGreeting()}, I'm Nirmala 👋`
