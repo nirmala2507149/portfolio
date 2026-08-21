@@ -208,7 +208,7 @@ section h2::after{
 
 @media (max-width:768px) {
     .nav-links{
-        display: none;
+        display: flex;
     }
     .menu-toggle{
         display: block;
